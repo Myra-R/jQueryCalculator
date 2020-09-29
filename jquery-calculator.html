@@ -74,13 +74,26 @@
   </div>
 
 <script type="text/javascript">
+//variables 
+
 
 $(document).ready(function() {
+var num1 = $(".btn btn-primary number");
+var num2 = $(".btn btn-primary number");
+var operator = $(".btn btn-danger operator");
+var total = $(".btn btn-success equal");
+var clear = $(".btn btn-dark clear");
 
-// Your code here...
+$("button").on("click", function(event) {
+  if (num1 === ".btn btn-primary number") {
+  $("#first-number").append(event.target.innerHTML)
+  }
+   if (num2===".btn btn-primary number");
+  $("#second-number").append(event.target.innerHTML)}
+
+)})
 
 
-});
 
 </script>
 
